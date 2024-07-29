@@ -30,6 +30,7 @@ boxes.forEach((box) => {
     // console.log("Button Was Clicked");
     if (turnO) {
       box.innerText = "O";
+      box.classList.add("green")
       turnO = false;
     } else {
       box.innerText = "X";
@@ -41,7 +42,6 @@ boxes.forEach((box) => {
     if (count === 9 && !isWinner) {
       gameDraw();
     }
-    console.log(count)
   });
 });
 

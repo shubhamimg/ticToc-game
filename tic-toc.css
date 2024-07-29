@@ -9,6 +9,9 @@ body{
     padding: 20px;
     overflow: hidden;
 }
+.green{
+    color: green !important;
+}
 
 .container{
     height: 70vh;
