@@ -7,6 +7,7 @@ body{
     background-color: cadetblue;
     text-align: center;
     padding: 20px;
+    overflow: hidden;
 }
 
 .container{
@@ -58,5 +59,13 @@ body{
     font-size: 8vmin;
 }
 .hide{
-    display: none;
+    display: none !important;
+}
+
+.msg-container{
+    height: 100vmin;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
