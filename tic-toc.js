@@ -30,10 +30,11 @@ boxes.forEach((box) => {
     // console.log("Button Was Clicked");
     if (turnO) {
       box.innerText = "O";
-      box.classList.add("green")
+      box.classList.add("green");
       turnO = false;
     } else {
       box.innerText = "X";
+      box.classList.remove("green")
       turnO = true;
     }
     box.disabled = true;
